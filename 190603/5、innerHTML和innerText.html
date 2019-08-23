@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="box">珠峰</h1>
+    <script>
+        // 改标签内容
+        // 1、获取到标签（DOM）
+        // 2、然后修改内容
+
+        // innerHTML 和 innerText 即可以读也可以写
+        //var a = prompt();
+       
+        
+    
+        var a = prompt();
+        var eBox = document.getElementById("box");
+        eBox.innerHTML = "<a href='http://baidu.com'>百度</a>";
+   
+        // innerHTML，这是元素的一个属性，可以通过修改元素的innerHTMl属性，修改标签中的内容
+        // innerHTML可以识别标签
+        // innerHTML是覆盖性操作，会把标签中原有的内容覆盖掉
+
+        // eBox.innerText = "百度";
+        // innerText和innerHTML的功能类似，修改标签中的内容；
+        // 覆盖性的操作；
+        // innerText不可以识别标签
+
+    </script>
+</body>
+</html>

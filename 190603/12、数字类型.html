@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 数字类型，包含整数、负数、0、NaN
+        // var num = 1 + 1;   
+        // var num = 5%2;
+        // console.log(num);
+        // console.log(typeof(num)); // "number"
+
+        // + - * / %
+        // m%n : m 除以 n的到的余数 
+
+       /*  var a = 1;
+        // var b = 2;
+        // console.log(a + b);
+        // a++; // 自增(在原来基础上加1) 先运算后自增
+        // ++a; // 自增（在原来基础上加1）先自增后运算
+        // a--;
+        // --a;
+        var b = ++a + 9;
+        console.log(b);
+        console.log(a); */
+
+
+        // m += n 等于 m = m + n;
+        // m -= n 等于 m = m - n;
+        // m *= n 等于 m = m * n;
+        // m /= n 等于 m = m / n;
+        // m %= n 等于 m = m % n;
+        // var a = 100;
+        // a %= 3;
+        // console.log(a);
+        
+
+        // Number(); // 将其他数据类型转换成数字
+        // 字符串转数字，如果字符串中是一个有效数字，得到的结果就是字符串中的数字，如果不是一个有效数字，返回结果是一个NaN（not a number）
+        // 布尔类型转数字，true为1，false为0；
+        // null转数字为0
+        // undefined转数字为NaN
+
+        // console.log(Number("abc")); // NaN
+        // console.log(Number("+123.123")); // 123.123
+        // console.log(Number("123abc")); // NaN
+        // console.log(Number("")); // 0
+        // console.log(Number(true)); // 1
+        // console.log(Number(false)); // 0
+        // console.log(Number(null)); // 0
+        // console.log(Number(undefined)); // NaN
+
+        // 先转成字符串（String），在转数字
+        // console.log(Number({a:1})); // "[object Object]" => NaN
+        // console.log(Number([])); // "" => 0
+        // console.log(Number([1,2])); // "1,2" => NaN
+
+        // 判断数据是不是NaN，如果是NaN返回为true，不是NaN返回false
+        // isNaN方法处理非数字类型时，会先将数据通过Number转换成数字类型（隐式转换），在判断
+        // console.log(isNaN(1)); // false 
+        // console.log(isNaN(NaN)); // true 
+        // console.log(isNaN([])); // false
+        // console.log(isNaN({})); // {} => "[object Object]" => NaN => true
+    </script>
+</body>
+</html>
